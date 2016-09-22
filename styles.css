@@ -1,0 +1,110 @@
+/****************************
+ ====== Mon super CSS =====
+ ****************************/
+body {
+	background-color: #282828;
+}
+
+.header {
+	background-color: #1D6D75;
+	height: 210px;
+	width: 101%;
+	margin-left: -12px;
+	margin-top: 50px;
+}
+/* Je positionne mon logo */
+.header img {
+	float: left;
+	width: 150px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+/* Je sélectionne les <li> du menu horizontal */
+.header ul li{
+	color: #FFF;
+    display : inline;
+    padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+}
+
+.header ul {
+	color: #FFF;
+	float: right;
+    list-style-type : none; /* Car sinon les puces se placent n'importe où */
+    font-family: "Droid Sans";
+}
+
+h1 {
+	font-size: 50px;
+	color: #FFF;
+	padding-top: 50px;
+	margin-left: 46.5%;
+	font-family: "Indie Flower";
+}
+
+h2 {
+	font-size: 25px;
+	color: #FFF;
+	margin-top : -20px;
+	margin-left: 38%;
+	font-family: "Indie Flower";
+}
+
+.photos {
+	background-color: #FFF;
+	height: 480px;
+	width: 101%;
+	margin-left: -12px;
+}
+
+.photos table {
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photos img {
+	width: 400px;
+}
+
+.input-text .tableinput{
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input-text input{
+	height: 30px;
+}
+
+.input-text .inputbar{
+	width: 600px;
+	color: black;
+	font-family: "Indie Flower";
+	-webkit-apparence:none;
+    background-color:white;
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px
+}
+
+.input-text .inputbutton{
+	width: 60px;
+	height: 35px;
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: "Indie Flower";
+	-webkit-apparence:none;
+    background-color:#1D6D75;
+    color: #FFF;
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px
+}
+
+.left{
+	text-align: left;
+}
+.clear {
+	clear:both;
+}
