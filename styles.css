@@ -80,7 +80,10 @@ nav ul {
 .images img {
     width: 49.6%;
     display: inline-block;
-    background-color: rgba(0,0,0,0.5);
+    background:rgba(0,0,0,.2);
+	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+    border-bottom:2px solid #fff;
+    border-right:2px solid #fff;
 }
 /******************************** FOOTER *************************/
 footer {
@@ -122,6 +125,10 @@ button {
     color: #fff;
     background-color: #1B6E76;
 	-webkit-apparence:none;
+}
+
+button:hover {
+	background-color: #1B6E66;
 }
 
 .left{
